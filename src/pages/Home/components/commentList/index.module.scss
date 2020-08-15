@@ -1,0 +1,16 @@
+@import "../../../../styles/mixin.scss";
+@import "../../../../styles//varible.scss";
+
+.commentsList {
+  .loadMore {
+    text-align: center;
+    margin-top: 12;
+    height: 32;
+    line-height: 32px;
+  }
+  .extra {
+    font-size: $SMALL_SIZE;
+    color: $TEXT_GREY_COLOR;
+    margin-left: 10px;
+  }
+}

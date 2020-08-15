@@ -1,0 +1,34 @@
+@import "../../styles/mixin.scss";
+@import "../../styles//varible.scss";
+
+.container {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  .appbar {
+    background-color: $BACKGROUND_GREY_COLOR;
+    padding: 5px 12px;
+    border-bottom: 1px solid $BORDER_GREY_COLOR
+    a {
+      color: $TEXT_BLACK_COLOR;
+    }
+    .send {
+      color: $THEME_COLOR;
+      font-size: $LARGE_SIZE;
+      font-weight: 800;
+    }
+    .icon {
+      font-size: 24px;
+    }
+  }
+  .content {
+      flex: 1;
+      .textarea {
+          height: 100%;
+          font-size: $LARGE_SIZE;
+          padding: 18px 14px;
+          resize: none;
+      }
+  }
+}
